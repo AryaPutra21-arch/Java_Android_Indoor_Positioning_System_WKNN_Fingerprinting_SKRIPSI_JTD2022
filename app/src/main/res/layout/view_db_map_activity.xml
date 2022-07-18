@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/view_ap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Show AP"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_btn"
+                android:focusable="true"
+                android:textAllCaps="false"
+                android:textColor="@color/plaster"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteY="336dp"/>
+
+            <Button
+                android:id="@+id/view_rp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Show RP"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/rounded_btn"
+                android:focusable="true"
+                android:textAllCaps="false"
+                android:textColor="@color/plaster"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteY="336dp"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/view_ap_rp_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/db_map"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/ah_lt2" />
+            <RelativeLayout
+                android:id="@+id/view_ap_point"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/view_rp_point"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

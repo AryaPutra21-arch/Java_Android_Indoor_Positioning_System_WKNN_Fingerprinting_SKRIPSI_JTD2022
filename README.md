@@ -1,4 +1,4 @@
-This proect is thesis for my Degree in electrical engineering in State Polytechnic of Malang. This study designed an application of Indoor Positioning and Navigating System Using Wi-Fi with Fingerprinting method and Weighted K-Nearest Neighbor algorithm. this Application is advanced and futher development from Application Java Android by Suyash Gupta https://github.com/Talentica/WifiIndoorPositioning.git .
+This project is thesis for my Degree in electrical engineering in State Polytechnic of Malang. This study designed an application of Indoor Positioning and Navigating System Using Wi-Fi with Fingerprinting method and Weighted K-Nearest Neighbor algorithm. this Application is advanced and futher development from Application Java Android by Suyash Gupta https://github.com/Talentica/WifiIndoorPositioning.git .
 
 This system works on the principle of utilizing Received Signal Strength (RSS) emitted by a Wi-Fi Access point to determine the location of objects. In the design process, it is necessary to create a fingerprinting database by considering the number of access points and environmental conditions.
 
